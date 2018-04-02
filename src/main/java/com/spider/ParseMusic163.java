@@ -35,10 +35,10 @@ public class ParseMusic163 extends ParseBase {
 
     }
 
-    public List<Song> parseMusics() {
+    public List<Song> parseMusics(String filePath) {
         List<Song> res = new ArrayList<Song>();
 
-        Document document = getDocument(DEFULTFILE);
+        Document document = getDocument(filePath);
 
         Elements elementsByClass = document.getElementsByClass(TABLECLASS);
         if (null != elementsByClass && elementsByClass.size() > 0) {

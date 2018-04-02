@@ -16,8 +16,8 @@ public class Application {
 
     public static void main(String[] args) {
         ParseMusic163 parseMusic163 = new ParseMusic163();
-        List<Song> songs = parseMusic163.parseMusics();
-        parseMusic163.makeSingsFile("mysings.txt", songs);
+        List<Song> songs = parseMusic163.parseMusics("c://opt//2018年三月最热新歌TOP50.html");
+        parseMusic163.makeSingsFile("2018年三月最热新歌TOP50.txt", songs);
     }
 
 }
