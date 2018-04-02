@@ -1,4 +1,4 @@
-package com.spider;
+package com.spider.vo;
 
 /**
  * Created by

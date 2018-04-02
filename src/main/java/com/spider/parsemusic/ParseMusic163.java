@@ -1,5 +1,6 @@
-package com.spider;
+package com.spider.parsemusic;
 
+import com.spider.vo.Song;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
