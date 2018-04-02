@@ -20,6 +20,7 @@ public class ParseBase {
 
     public static String DEFULTFILE = "c://opt//网易云音乐.html";
     public static String FILECODETYPE = "UTF-8";
+    public static String ROWENDSTR = "  \r\n";
 
     public Document getDocument(String filePath) {
         try {
@@ -54,7 +55,7 @@ public class ParseBase {
             bw = new BufferedWriter(opsw);
 
             for (Song s : songs) {
-                bw.write(s.getMusicName() + " " + s.getMusicSinger() + "\r\n");
+                bw.write(s.getMusicName() + " " + s.getMusicSinger() + ROWENDSTR);
             }
             bw.flush();
         } catch (Exception e) {
