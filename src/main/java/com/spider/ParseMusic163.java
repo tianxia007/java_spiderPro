@@ -28,6 +28,13 @@ public class ParseMusic163 extends ParseBase {
      */
     private static Integer TD_MUSICSINGER_INDEX = 3;
 
+    /**
+     * 模拟登陆下载个人喜好的收藏夹
+     */
+    public void loginAndDownlodByid() {
+
+    }
+
     public List<Song> parseMusics() {
         List<Song> res = new ArrayList<Song>();
 
