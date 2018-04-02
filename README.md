@@ -1,7 +1,6 @@
 # java_spiderPro
 ###工程二维码  
-![avatar](https://gitee.com/dwxdfhx/java_spiderPro/blob/master/pics/project.png)
-
+![](pics/project.png)  
  小半 (Live) - (原唱：陈粒) 周锐/郑锐彬/灵超/钱正昊  
  Firewalking (Live) 灵超/余明君/林超泽/李权哲/木子洋/林彦俊/陈立农  
  我怀念的 (Live) - (原唱：孙燕姿) 陈立农/李权哲/韩沐伯/尤长靖  
