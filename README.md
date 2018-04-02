@@ -1,6 +1,6 @@
 # java_spiderPro
-###工程二维码
-<img src="https://gitee.com/dwxdfhx/java_spiderPro/blob/master/pics/project.png"/>  
+###工程二维码  
+![avatar](https://gitee.com/dwxdfhx/java_spiderPro/blob/master/pics/project.png)
 
  小半 (Live) - (原唱：陈粒) 周锐/郑锐彬/灵超/钱正昊  
  Firewalking (Live) 灵超/余明君/林超泽/李权哲/木子洋/林彦俊/陈立农  
