@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/oauth2_pro/client/client.iml" filepath="$PROJECT_DIR$/oauth2_pro/client/client.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java_spiderPro.iml" filepath="$PROJECT_DIR$/.idea/java_spiderPro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/music/music.iml" filepath="$PROJECT_DIR$/music/music.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth2_pro/oauth2_pro.iml" filepath="$PROJECT_DIR$/oauth2_pro/oauth2_pro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth2_pro/resource/resource.iml" filepath="$PROJECT_DIR$/oauth2_pro/resource/resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth2_pro/server/server.iml" filepath="$PROJECT_DIR$/oauth2_pro/server/server.iml" />
     </modules>
   </component>
 </project>
