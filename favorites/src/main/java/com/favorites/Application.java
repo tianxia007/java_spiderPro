@@ -17,7 +17,7 @@ public class Application {
 
     public static void main(String[] args) {
         ParseFavorites parseFavorites = new ParseFavorites();
-        parseFavorites.parse();
+        parseFavorites.parse("2016");
 
     }
 

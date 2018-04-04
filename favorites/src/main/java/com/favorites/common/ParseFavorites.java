@@ -7,13 +7,16 @@ import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
 import com.favorites.vo.RequestWithCookie;
 import com.favorites.vo.TouTiao;
+import com.favorites.vo.TouTiaoBlog;
 import com.sun.media.sound.SoftTuning;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import sun.nio.ch.Net;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
  * Created by
@@ -24,14 +27,19 @@ import java.util.Map;
 public class ParseFavorites extends ParseBase {
     private static final Logger logger = LoggerFactory.getLogger(ParseFavorites.class);
 
-    public void parse() {
+    /**
+     * beforYear过滤日期以前的收藏信息
+     *
+     * @param beforYear
+     */
+    public void parse(String beforYear) {
         Map<String, RequestWithCookie> favoritesMap = getFavoritesSetting();
 
         favoritesMap.forEach((key, value) -> {
             logger.debug("解析key:" + key);
             switch (key) {
                 case "json":
-                    parseJson(value);
+                    parseJson(value, beforYear);
                     break;
                 case "oschina":
                     parseHtml(value);
@@ -46,10 +54,11 @@ public class ParseFavorites extends ParseBase {
         logger.debug("parseHtml...");
     }
 
-    private void parseJson(RequestWithCookie value) {
+    private void parseJson(RequestWithCookie value, String beforYear) {
         logger.debug("parseJson...");
         String next = "0";
-        List dates = new ArrayList();
+        List<TouTiaoBlog> dates = new ArrayList();
+        List<TouTiaoBlog> datesUse = new ArrayList();
         while (null != next) {
             try {
                 logger.debug("下一页访问标记：" + next);
@@ -78,18 +87,20 @@ public class ParseFavorites extends ParseBase {
                 }
                 //通过next停止循环
                 next = StrUtil.isBlank(o.getMax_repin_time()) ? null : o.getMax_repin_time();
-                String behot_time = o.getData().get(0).getBehot_time();
-                if (behot_time.contains("2017")) {
-                    next = null;
+                if (null != next) {
+                    String repin_time = o.getData().get(o.getData().size() - 1).getRepin_time();
+                    if (repin_time.contains(beforYear)) {
+                        next = null;
+                    }
                 }
-                //通过next停止循环
-
                 dates.addAll(o.getData());
+                //通过next停止循环
                 Thread.sleep(RandomUtil.randomSleep());
             } catch (Exception e) {
             }
         }
+        datesUse = dates.stream().filter((TouTiaoBlog c) -> !c.getRepin_time().contains(beforYear)).collect(Collectors.toList());
 
-        FreemakerUtils.makeFieByFtl("toutiao_markdown.ftl", dates);
+        FreemakerUtils.makeFieByFtl("toutiao_markdown.ftl", datesUse);
     }
 }

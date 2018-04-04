@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d80f427a-b872-4778-a1ab-f316817f1136" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/favorites/src/main/resources/logback.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/favorites/src/main/java/com/favorites/Application.java" afterPath="$PROJECT_DIR$/favorites/src/main/java/com/favorites/Application.java" />
+      <change beforePath="$PROJECT_DIR$/favorites/src/main/java/com/favorites/common/ParseFavorites.java" afterPath="$PROJECT_DIR$/favorites/src/main/java/com/favorites/common/ParseFavorites.java" />
+      <change beforePath="$PROJECT_DIR$/favorites/今日头条收藏.html" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/oauth2/target/" />
@@ -30,28 +34,8 @@
       <file leaf-file-name="favorites.setting" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/favorites/src/main/resources/favorites.setting">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="toutiao_markdown.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/favorites/src/main/resources/ftl/toutiao_markdown.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/favorites/src/main/java/com/favorites/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="36">
+              <caret line="2" column="937" lean-forward="true" selection-start-line="2" selection-start-column="937" selection-end-line="2" selection-end-column="937" />
               <folding />
             </state>
           </provider>
@@ -60,22 +44,63 @@
       <file leaf-file-name="ParseFavorites.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/favorites/src/main/java/com/favorites/common/ParseFavorites.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="76" column="23" lean-forward="true" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+            <state relative-caret-position="145">
+              <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+              <folding>
+                <element signature="e#1405#1406#0" expanded="true" />
+                <element signature="e#1449#1450#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TouTiaoBlog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/favorites/src/main/java/com/favorites/vo/TouTiaoBlog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="31" />
+              <folding>
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TouTiao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/favorites/src/main/java/com/favorites/vo/TouTiao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
+                <element signature="e#1035#1036#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="今日头条收藏.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/favorites/今日头条收藏.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="923">
+              <caret line="127" column="7" lean-forward="true" selection-start-line="127" selection-start-column="7" selection-end-line="127" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor relative-caret-position="1980">
-                <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/favorites/src/main/java/com/favorites/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -134,18 +159,19 @@
         <option value="$PROJECT_DIR$/favorites/src/main/java/com/favorites/vo/RequestWithCookie.java" />
         <option value="$PROJECT_DIR$/favorites/src/main/java/com/favorites/common/ParseBase.java" />
         <option value="$PROJECT_DIR$/favorites/pom.xml" />
-        <option value="$PROJECT_DIR$/favorites/src/main/java/com/favorites/Application.java" />
         <option value="$PROJECT_DIR$/favorites/src/test/java/com/test/Test.java" />
         <option value="$PROJECT_DIR$/favorites/src/main/java/com/favorites/vo/TouTiaoBlog.java" />
         <option value="$PROJECT_DIR$/favorites/src/main/java/com/favorites/vo/TouTiao.java" />
         <option value="$PROJECT_DIR$/favorites/src/main/java/com/favorites/common/RandomUtil.java" />
         <option value="$PROJECT_DIR$/favorites/src/main/java/com/favorites/common/FreemakerUtils.java" />
         <option value="$PROJECT_DIR$/favorites/src/main/resources/ftl/toutiao.ftl" />
-        <option value="$PROJECT_DIR$/favorites/src/main/java/com/favorites/common/ParseFavorites.java" />
         <option value="$PROJECT_DIR$/favorites/src/main/resources/favorites.setting" />
         <option value="$PROJECT_DIR$/favorites/今日头条收藏.html" />
         <option value="$PROJECT_DIR$/favorites/src/main/resources/ftl/toutiao_markdown.ftl" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/favorites/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/favorites/src/main/java/com/favorites/Application.java" />
+        <option value="$PROJECT_DIR$/favorites/src/main/java/com/favorites/common/ParseFavorites.java" />
       </list>
     </option>
   </component>
@@ -276,14 +302,14 @@
               <item name="java_spiderPro" type="462c0819:PsiDirectoryNode" />
               <item name="favorites" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_spiderPro" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_spiderPro" type="462c0819:PsiDirectoryNode" />
               <item name="favorites" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -291,9 +317,28 @@
               <item name="java_spiderPro" type="462c0819:PsiDirectoryNode" />
               <item name="favorites" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="favorites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_spiderPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_spiderPro" type="462c0819:PsiDirectoryNode" />
+              <item name="favorites" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_spiderPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_spiderPro" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_spiderPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_spiderPro" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="favorites" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -321,11 +366,11 @@
       <recent name="com.favorites" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects_openproject\java_spiderPro\favorites\src\main\resources" />
       <recent name="C:\projects_openproject\java_spiderPro\favorites\src\main\resources\ftl" />
       <recent name="C:\projects_openproject\java_spiderPro\pics" />
       <recent name="C:\projects_openproject\java_spiderPro\oauth2_pro\server" />
       <recent name="C:\projects_openproject\java_spiderPro\oauth2_pro\resource" />
-      <recent name="C:\projects_openproject\java_spiderPro\oauth2_pro\client" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -579,7 +624,7 @@
       <workItem from="1522733178426" duration="1031000" />
       <workItem from="1522772364169" duration="1788000" />
       <workItem from="1522832859552" duration="14707000" />
-      <workItem from="1522855079426" duration="1476000" />
+      <workItem from="1522855079426" duration="2825000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1522665436291</created>
@@ -742,7 +787,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522856509177</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="a">
+      <created>1522856562050</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1522856562050</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -778,7 +830,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34543000" />
+    <option name="totallyTimeSpent" value="35892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1054" extended-state="6" />
@@ -791,8 +843,8 @@
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.102878466" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281075" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281075" sideWeight="0.4914712" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281075" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281075" sideWeight="0.4914712" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26599148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -838,35 +890,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/oauth2_pro/resource/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth2_pro/server/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth2_pro/resource/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth2_pro/client/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oauth2_pro/client/src/main/resource/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1015,6 +1038,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="195" column="27" lean-forward="false" selection-start-line="195" selection-start-column="27" selection-end-line="195" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,6 +1067,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="e#199#200#0" expanded="false" />
+            <element signature="e#225#226#0" expanded="false" />
+            <element signature="e#263#264#0" expanded="false" />
+            <element signature="e#293#294#0" expanded="false" />
+            <element signature="e#327#328#0" expanded="false" />
+            <element signature="e#357#358#0" expanded="false" />
+            <element signature="e#403#404#0" expanded="false" />
+            <element signature="e#441#442#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1050,14 +1084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="681" column="18" lean-forward="false" selection-start-line="681" selection-start-column="18" selection-end-line="681" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/org/slf4j/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="396" column="16" lean-forward="false" selection-start-line="396" selection-start-column="16" selection-end-line="396" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,6 +1113,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-80">
           <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1115,6 +1142,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="210" column="28" lean-forward="false" selection-start-line="210" selection-start-column="28" selection-end-line="210" selection-end-column="28" />
+          <folding>
+            <element signature="e#7161#7162#0" expanded="false" />
+            <element signature="e#7199#7200#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1125,24 +1156,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/favorites/src/main/java/com/favorites/vo/TouTiao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/favorites/src/main/java/com/favorites/vo/TouTiaoBlog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.0.9/hutool-all-4.0.9-sources.jar!/cn/hutool/core/util/StrUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="84" column="26" lean-forward="false" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1151,8 +1169,8 @@
         <state relative-caret-position="144">
           <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="23" />
           <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="false" />
+            <element signature="e#229#230#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1162,8 +1180,8 @@
         <state relative-caret-position="307">
           <caret line="37" column="22" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1045#1061#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1045#1061#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1176,44 +1194,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/favorites/src/main/java/com/favorites/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/favorites/src/main/resources/ftl/toutiao_markdown.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/favorites/今日头条收藏.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="119" column="0" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="119" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/favorites/src/main/resources/favorites.setting">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/favorites/src/main/java/com/favorites/common/ParseFavorites.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="76" column="23" lean-forward="true" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1226,6 +1210,105 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/java_spiderPro.log.2018-04-02.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/java_spiderPro.log.2018-04-04.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-470">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/favorites/java_spiderPro.log.2018-04-04.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-2580">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/org/slf4j/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="270" column="16" lean-forward="false" selection-start-line="270" selection-start-column="16" selection-end-line="270" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favorites/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favorites/src/main/resources/favorites.setting">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="937" lean-forward="true" selection-start-line="2" selection-start-column="937" selection-end-line="2" selection-end-column="937" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favorites/src/main/java/com/favorites/vo/TouTiaoBlog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favorites/src/main/java/com/favorites/vo/TouTiao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favorites/今日头条收藏.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="923">
+          <caret line="127" column="7" lean-forward="true" selection-start-line="127" selection-start-column="7" selection-end-line="127" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favorites/src/main/java/com/favorites/common/ParseFavorites.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding>
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favorites/src/main/java/com/favorites/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
