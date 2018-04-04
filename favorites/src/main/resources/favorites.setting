@@ -1,5 +1,3 @@
 [favorites_urls]
 #只需要把cookies信息复制到~~~后面,前面的不需要改变
-json=https://www.toutiao.com/c/user/favourite/~~~uuid="w:bb0e9d8d78294bdbb30a9adf2d617e1d"; UM_distinctid=160bc591cc45f9-00859aed13ee14-5d4e211f-1fa400-160bc591cc5390; __tea_sdk__web_id=1495118960; __tea_sdk__user_unique_id=1495118960; __tea_sdk__ssid=0; login_flag=0ca53a4fbbaf195647e582c8f80a1b33; sessionid=16e396d5363205a658344761072304a8; uid_tt=218a92f807da5fd35200bdd79eef2759; sid_tt=16e396d5363205a658344761072304a8; _ga=GA1.2.144342981.1514988445; tt_webid=6519644385327367684; WEATHER_CITY=%E5%8C%97%E4%BA%AC; tt_webid=6519644385327367684; sso_login_status=1; sid_guard="16e396d5363205a658344761072304a8|1521386724|15552000|Fri\054 14-Sep-2018 15:25:24 GMT"; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1522681960,1522765200,1522767484,1522820312; __tasessionId=hvi4j7yzt1522837604504; CNZZDATA1259612802=442580903-1514987276-https%253A%252F%252Fwww.baidu.com%252F%7C1522832637; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1522837611
-
-
+json=https://www.toutiao.com/c/user/favourite/~~~cookiesinfo
