@@ -7,17 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="client" />
+        <module name="favorites" />
         <module name="music" />
         <module name="resource" />
         <module name="server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="client" target="1.7" />
+      <module name="client" target="1.8" />
+      <module name="favorites" target="1.8" />
       <module name="java_spiderPro" target="1.7" />
-      <module name="music" target="1.7" />
-      <module name="oauth2_pro" target="1.7" />
-      <module name="resource" target="1.7" />
+      <module name="music" target="1.8" />
+      <module name="oauth2_pro" target="1.8" />
+      <module name="resource" target="1.8" />
       <module name="server" target="1.7" />
     </bytecodeTargetLevel>
   </component>

@@ -7,6 +7,7 @@
     <modules>
         <module>music</module>
         <module>oauth2_pro</module>
+        <module>favorites</module>
     </modules>
     <packaging>pom</packaging>
 

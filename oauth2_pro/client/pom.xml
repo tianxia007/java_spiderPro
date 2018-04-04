@@ -14,7 +14,13 @@
     <artifactId>client</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
-
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.oltu.oauth2</groupId>
+            <artifactId>org.apache.oltu.oauth2.client</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>
