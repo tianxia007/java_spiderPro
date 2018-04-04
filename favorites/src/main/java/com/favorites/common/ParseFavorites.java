@@ -90,6 +90,6 @@ public class ParseFavorites extends ParseBase {
             }
         }
 
-        FreemakerUtils.makeFieByFtl("toutiao.ftl", dates);
+        FreemakerUtils.makeFieByFtl("toutiao_markdown.ftl", dates);
     }
 }
