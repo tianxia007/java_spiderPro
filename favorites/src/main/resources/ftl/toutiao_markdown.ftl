@@ -15,11 +15,10 @@
     </style>
 </head>
 <body style="background:#f8f8f8">
-<center>今日头条收藏博客列表   总数量:${nums}</center>
+<center>今日头条收藏博客列表 总数量:${nums}</center>
 <div class="left">
     <#list blogs as blog>
-        [${blog.title}](${blog.display_url}?_blank) ${blog.behot_time}
-
+[${blog.title}](${blog.display_url}?_blank) ${blog.behot_time}
     </#list>
 </div>
 </body>
